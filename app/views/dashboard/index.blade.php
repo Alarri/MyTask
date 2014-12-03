@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Task</title>
+  <title>Tareas</title>
   {{HTML::style('bootstrap/css/bootstrap.min.css')}}
   {{HTML::style('bootstrap/css/estilos.css')}}
 </head>

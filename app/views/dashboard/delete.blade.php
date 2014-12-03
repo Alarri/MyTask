@@ -26,9 +26,14 @@
               </div>
               <br><br><br><br>
               <div class="form-group">
+
                 <div  id ="btn1"class="col-md-12 text-left">
+
+     
                   {{Form::submit('Borrar', array('class' => 'btn btn-primary btn-lg'))}}
+                   
                   {{ Form::close() }}
+                  <!--<button type="button" id="btnCancelar" class="btn btn-primary btn-lg">Cancelar</button>-->
                 </div>
               </div>
             </fieldset>
@@ -36,4 +41,5 @@
         </div>
       </div>
     </div>
+    {{HTML::script('js/cancelar.js');}}
   </body>

@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 	TraerTarea();
 });
+
 	/*Envia la informacion de la tarea nueva*/
 	function AgregarTarea(valor){	
 

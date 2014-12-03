@@ -106,6 +106,14 @@ class TaskController extends \BaseController {
 
 		//return Redirect::to('/error');
 	}
+	public function cancelar($id)
+	{
+			//return Redirect::to('tasks');
+
+            return Redirect::to('/tasks');
+			
+        
+	}
 
 	/**
 	 * Update the specified resource in storage.

@@ -20,7 +20,10 @@
       <h1 class="text-center">Usuario: {{ Auth::user()->user_person }}</h1>
     </div>
     <br><br>
-
+    <div class="panel-footer">          
+       <button type="button" id="btnAddTask" class="btn btn-primary">Agregar Tarea</button>
+     </div>
+    <br><br>
     <div class="row">  	
       <div class="col-md-3">
         <div class="panel panel-primary">
@@ -31,9 +34,6 @@
 
             </ul>
           </div>
-          <div class="panel-footer">        	
-           <button type="button" id="btnAddTask" class="btn btn-primary">Agregar Tarea</button>
-         </div>
        </div>
      </div>
      <div class="col-md-3">
